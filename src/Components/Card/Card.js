@@ -8,7 +8,7 @@ class Card extends Component {
             <article className={classes.card}> 
                 <div className={classes.cardHeader}>
                   <p>Sep 11th 2020</p>
-                  <h2>Card Tricks are fun!</h2>
+                  <h2>{this.props.title}</h2>
                </div>
             </article>
         )

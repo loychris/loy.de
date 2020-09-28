@@ -15,8 +15,10 @@ code {
 body {
   padding: 0;
   margin: 0;
-  background-color: #17141d;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
+  /* background-color: #17141d;
+  color: white; */
   font-family: 'DM Mono', monospace;
 }
 
@@ -26,11 +28,11 @@ a {
 
 .BookList {
   display: flex;
-  padding: 3rem;
+  padding: 5rem;
   overflow-x: scroll;
 }
 
-.BookList::-webkit-scrollbar {
+/* .BookList::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
@@ -42,4 +44,4 @@ a {
 
 .BookList::-webkit-scrollbar-track {
   background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
-}
+} */

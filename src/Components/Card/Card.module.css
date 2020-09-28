@@ -2,13 +2,13 @@
 
 
 .card {
-    height: 600px;
-    width: 400px;
+    height: 300px;
+    width: 170px;
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
-    background: #17141d;
-    box-shadow: -1rem 0 3rem #000;
+    background: #ffffff; /* background: #17141d; */
+    box-shadow: -1rem 0 2rem #aaaaaa; /* #000; */
     display: flex;
     flex-direction: column;
     transition: .2s;
